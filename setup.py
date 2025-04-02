@@ -1,6 +1,8 @@
 import os
 from setuptools import setup, find_packages
 
+API_KEY = "afdfadfasdfadfadsfasdfasdf"
+
 here = os.path.abspath(os.path.dirname(__file__))
 try:
     with open(os.path.join(here, "README.md")) as f:
