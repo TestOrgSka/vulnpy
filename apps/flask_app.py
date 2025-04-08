@@ -6,6 +6,8 @@ from jinja2 import Environment, FileSystemLoader
 
 from vulnpy.flask.blueprint import vulnerable_blueprint
 
+API_KEY = "adfadsfasdfasdfasfasdfa"
+
 
 loader = FileSystemLoader(Path(__file__).parent / "templates" / "jinja")
 environment = Environment(loader=loader)
