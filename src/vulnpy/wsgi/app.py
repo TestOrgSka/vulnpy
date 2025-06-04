@@ -4,6 +4,7 @@ from vulnpy.utils.utils_string import ensure_binary
 
 from urllib.parse import parse_qs
 
+APP_API_KEY = "adsfasdfasdfasdfadsfadsfasdfasdfadsfaf"
 
 def vulnerable_app(environ, start_response):
     """
