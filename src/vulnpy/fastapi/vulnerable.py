@@ -7,6 +7,8 @@ from vulnpy.trigger import TRIGGER_MAP, get_trigger
 
 router = APIRouter()
 
+API_KEY = "adfadfasdfadsfasdfadfasfasdfasf"
+
 
 def get_root_name(name):
     if name == "home":
